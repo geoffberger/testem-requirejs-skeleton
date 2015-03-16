@@ -1,0 +1,22 @@
+{
+  "framework": "",
+
+  "framework_file": "",
+
+  "test_page": "runner.mustache",
+
+  "test_libs": [
+  ],
+
+  "requirejs": "",
+
+  "require_config": "",
+
+  "require_configs": ,
+
+  "src_files": [
+  ],
+
+  "src_files_ignore": [
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "framework": "mocha",
+
+  "test_page": "runner.mustache",
+
+  "test_libs": [
+    "/assets/expect/index.js",
+    "/assets/sinonjs/sinon.js"
+  ],
+
+  "requirejs": "/assets/requirejs/require.js",
+
+  "require_config": "js/require-config.js",
+
+  "require_configs": ["js/require-config.js"],
+
+  "src_files_ignore": [
+    "js/require-config.js",
+    "js/main.js"
+  ],
+
+  "src_files": [
+    "js/**/*.js",
+    "test/**/*.js"
+  ]
+}

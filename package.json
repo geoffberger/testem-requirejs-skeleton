@@ -1,0 +1,20 @@
+{
+  "name": "testem-requirejs-skeleton",
+  "version": "1.0.0",
+  "description": "Provides a skeleton to use requirejs, require configure, and incorporating various testing libraries",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "postinstall": "npm run bower-install",
+    "bower-install": "bower install",
+    "testem-mocha-expect": "cd examples/mocha-expect && testem"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.3.12",
+    "testem": "^0.7.5"
+  }
+}
