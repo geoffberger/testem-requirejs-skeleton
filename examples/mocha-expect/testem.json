@@ -12,8 +12,6 @@
 
   "require_config": "js/require-config.js",
 
-  "require_configs": ["js/require-config.js"],
-
   "src_files_ignore": [
     "js/require-config.js",
     "js/main.js"
